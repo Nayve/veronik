@@ -1,0 +1,100 @@
+$green-light: #afc958;
+$green-darker: #7c9232;
+$brown-light: #614433;
+$brown-darker: #40332c;
+
+$green-gradient: linear-gradient(to right, $green-light 0%, $green-darker 100%) repeat scroll 0 0;
+$brown-gradient: linear-gradient(to right, $brown-light 0%, $brown-darker 100%) repeat scroll 0 0;
+
+.preloade {
+
+    span {
+        background: rgba(58, 123, 213, 1);
+        background: -webkit-linear-gradient(left, rgba(58, 123, 213, 0.8), rgba(0, 210, 255, 0.8));
+        background: linear-gradient(to right, rgba(58, 123, 213, 0.8), rgba(0, 210, 255, 0.8));
+    }
+
+}
+
+.brown-bg {
+    
+    .overlay-bg {
+        // background: linear-gradient(to right, $brown-light 0%, $brown-darker 100%) repeat scroll 0 0;
+        background: $brown-gradient;
+    }
+
+    .dewo:after {
+        background: url(../img/header-dew.png) no-repeat scroll center bottom -10px / 100% auto;
+        opacity: 0.1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    }
+
+    .mainmenu-area {
+        &.affix {
+            // background: $brown-gradient;
+            background: $green-gradient;
+            // background: $green-light;
+        }
+    }
+
+}
+
+.overlay-bg {
+    background: $green-gradient;
+}
+
+// #mainmenu li.active a:before {
+//     content: none;
+// }
+
+
+p span, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+    color: $green-light;
+}
+
+.black-bg {
+    background-color: #2b2b2b;
+    // background-color: $green-light;
+    // background-color: #2d3d41;
+}
+
+#scrollUp {
+    display: none !important;
+}
+
+#price {
+
+    .price-table.active .amount, .price-table.active .price-title {
+        color: $green-light;
+    }
+
+}
+
+.social-menu a {
+    color: $green-darker;
+
+    &:hover {
+        background: $green-darker;
+    }
+}
+
+.border-icon {
+    color: $green-light;
+}
+
+.team_details {
+    bottom: 0;
+}
+
+.big-button:after {
+    background: $green-darker;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-default .navbar-collapse {
+        // background: #000;
+    }
+    .mainmenu-area {
+        background: $brown-gradient;
+    }
+}

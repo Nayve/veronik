@@ -1,0 +1,48 @@
+.preloade span {
+  background: #3a7bd5;
+  background: -webkit-linear-gradient(left, rgba(58, 123, 213, 0.8), rgba(0, 210, 255, 0.8));
+  background: linear-gradient(to right, rgba(58, 123, 213, 0.8), rgba(0, 210, 255, 0.8)); }
+
+.brown-bg .overlay-bg {
+  background: linear-gradient(to right, #614433 0%, #40332c 100%) repeat scroll 0 0; }
+
+.brown-bg .dewo:after {
+  background: url(../img/header-dew.png) no-repeat scroll center bottom -10px/100% auto;
+  opacity: 0.1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"; }
+
+.brown-bg .mainmenu-area.affix {
+  background: linear-gradient(to right, #afc958 0%, #7c9232 100%) repeat scroll 0 0; }
+
+.overlay-bg {
+  background: linear-gradient(to right, #afc958 0%, #7c9232 100%) repeat scroll 0 0; }
+
+p span, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+  color: #afc958; }
+
+.black-bg {
+  background-color: #2b2b2b; }
+
+#scrollUp {
+  display: none !important; }
+
+#price .price-table.active .amount, #price .price-table.active .price-title {
+  color: #afc958; }
+
+.social-menu a {
+  color: #7c9232; }
+  .social-menu a:hover {
+    background: #7c9232; }
+
+.border-icon {
+  color: #afc958; }
+
+.team_details {
+  bottom: 0; }
+
+.big-button:after {
+  background: #7c9232; }
+
+@media only screen and (max-width: 767px) {
+  .mainmenu-area {
+    background: linear-gradient(to right, #614433 0%, #40332c 100%) repeat scroll 0 0; } }
