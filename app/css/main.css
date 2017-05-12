@@ -29,10 +29,11 @@
 .icon-shopping-bag:before {
   content: "\f290"; }
 
-.preloade span {
-  background: #3a7bd5;
-  background: -webkit-linear-gradient(left, rgba(58, 123, 213, 0.8), rgba(0, 210, 255, 0.8));
-  background: linear-gradient(to right, rgba(58, 123, 213, 0.8), rgba(0, 210, 255, 0.8)); }
+.preloade {
+  opacity: 0.6; }
+  .preloade span {
+    display: none;
+    background: linear-gradient(to right, #afc958 0%, #7c9232 100%) repeat scroll 0 0; }
 
 .brown-bg .overlay-bg {
   background: linear-gradient(to right, #614433 0%, #40332c 100%) repeat scroll 0 0; }
