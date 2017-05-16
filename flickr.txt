@@ -1,0 +1,158 @@
+https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=b2aea89bf17c36d1de0f309fad841673&photoset_id=72157680754106914&user_id=144055964%40N06&format=json&nojsoncallback=1&auth_token=72157680754197234-22b5986436a9ecff&api_sig=d0bf81366017fea192b1d7dba367c8bd
+
+
+Flickr
+Clé
+53fe07edc095f646753d56343f5caac4
+Secret
+673739e72d7bd1ea
+
+https://farm1.staticflickr.com/2/1418878_1e92283336_m.jpg
+
+farm-id: 1
+server-id: 2
+photo-id: 1418878
+secret: 1e92283336
+size: m
+
+https://farm5.staticflickr.com/4164/34660214326_2306cee396.jpg
+
+
+{
+  "photoset": {
+    "id": "72157680754106914",
+    "primary": "34660214326",
+    "owner": "144055964@N06",
+    "ownername": "Gribouillew",
+    "photo": [
+      {
+        "id": "34660214326",
+        "secret": "2306cee396",
+        "server": "4164",
+        "farm": 5,
+        "title": "18424018_1026957880771304_3265171862552777402_n",
+        "isprimary": "1",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0
+      },
+      {
+        "id": "34660214266",
+        "secret": "ccb7b33e17",
+        "server": "4167",
+        "farm": 5,
+        "title": "18425257_1028800203920405_4738082987858743942_n",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0
+      },
+      {
+        "id": "34316202740",
+        "secret": "d555574402",
+        "server": "4163",
+        "farm": 5,
+        "title": "18447153_1028800200587072_74978387116313659_n",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0
+      },
+      {
+        "id": "34316202900",
+        "secret": "553f1b0962",
+        "server": "4188",
+        "farm": 5,
+        "title": "18222633_1022302431236849_854137587008434232_n",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0
+      },
+      {
+        "id": "34660214526",
+        "secret": "80bb235fdc",
+        "server": "4186",
+        "farm": 5,
+        "title": "18221847_1019024894897936_7027824807492574202_n",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0
+      },
+      {
+        "id": "34569966891",
+        "secret": "e1a3693571",
+        "server": "4183",
+        "farm": 5,
+        "title": "18194025_1019024901564602_657311723545221551_n",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0
+      },
+      {
+        "id": "34660215356",
+        "secret": "a73e5e045c",
+        "server": "4157",
+        "farm": 5,
+        "title": "18198435_1019024914897934_8356886641704308617_n",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0
+      },
+      {
+        "id": "34660215426",
+        "secret": "c89f1df705",
+        "server": "4157",
+        "farm": 5,
+        "title": "18195156_1019024908231268_8323233595876338868_n",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0
+      },
+      {
+        "id": "34660215596",
+        "secret": "843b23a98a",
+        "server": "4180",
+        "farm": 5,
+        "title": "18157413_1018430288290730_8228597662043506184_n",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0
+      },
+      {
+        "id": "34660215716",
+        "secret": "3a230d240b",
+        "server": "4175",
+        "farm": 5,
+        "title": "18157019_1019024951564597_8472683707452985196_n",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0
+      },
+      {
+        "id": "34660215856",
+        "secret": "90bd77f7ce",
+        "server": "4164",
+        "farm": 5,
+        "title": "18119305_1019024934897932_1366461329484688318_n",
+        "isprimary": "0",
+        "ispublic": 1,
+        "isfriend": 0,
+        "isfamily": 0
+      }
+    ],
+    "page": 1,
+    "per_page": 500,
+    "perpage": 500,
+    "pages": 1,
+    "total": "11",
+    "title": "boutique"
+  },
+  "stat": "ok"
+}
